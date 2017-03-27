@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/******************************************
+HEADER
+******************************************/
+.header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  padding: 1px 25px;
+  background-color: #e4e4e4;
+}
+
+.headline {
+  float: left;
+  margin: 0;
+  line-height: 70px;
+  font-size: 32px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav_ul {
+  margin: 0;
+}
+
+.nav_li {
+  display: inline-block;
+}
+
+.nav_a {
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 70px;
+}
+
+/******************************************
+MAIN
+******************************************/
+.main {
+  padding: 110px 170px 0;
+}
+
+
+/* search section */
+.search {
+  margin-bottom: 35px;
+}
+
+.search_label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.search_input {
+  display: inline-block;
+  vertical-align: top;
+  height: 33px;
+  padding: 0 8px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 2px solid #eee;
+}
+
+.search_iconWrap {
+  display: inline-block;
+  height: 33px;
+  border-radius: 3px;
+  border: 2px solid #eee;
+  cursor: pointer;
+}
+
+.search_icon {
+  height: 100%;
+  width: auto;
+}
+
+/* toggle section */
+.toggle {
+  height: 50px;
+  width: 423px;
+  margin-bottom: 65px;
+  font-size: 0;
+  border: 2px solid #eee;
+  border-radius: 3px;
+}
+
+.toggle_prev,
+.toggle_currentPostNumbers,
+.toggle_next {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.toggle_prev,
+.toggle_currentPostNumbers {
+  border-right: 2px solid #eee;
+}
+
+.toggle_prev,
+.toggle_next {
+  padding: 0 20px;
+}
+
+.toggle_currentPostNumbers {
+  padding: 0 41px;
+}
+
+/* results */
+.result {
+  font-size: 18px;
+}
+
+.result_date,
+.result_location {
+  color: #9e9e9e;
+}
+
+.result_title {
+  color: #0000ff;
+  font-weight: 700;
+}
